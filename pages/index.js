@@ -39,12 +39,12 @@ export default function Home() {
       </div>
       {/* Title */}
       <div className="text-2xl font-bold spacing tracking-wide z-10">
-        <div className="bg-gradient-to-bl from-cyan-200 via-indigo-400 to-emerald-200 text-clip text-transparent bg-clip-text font-bold text-4xl">DukeOfBetting</div>
+        <div className="bg-gradient-to-bl from-cyan-200 via-indigo-400 to-emerald-200 text-clip text-transparent bg-clip-text font-bold text-4xl py-1">DukeOfBetting</div>
       </div>
       {/* HeadLine */}
-      <div className="mt-10 text-2xl text-center z-10 gap-y-4 flex flex-col items-center sm:gap-0">
-        <div className="text-3xl bg-gradient-to-bl from-cyan-200 via-indigo-400 to-emerald-200 text-clip text-transparent bg-clip-text font-bold">{`Leading sports statistician & predictor. It’s never luck.`}</div>
-        <div className="bg-gradient-to-bl from-cyan-200 via-indigo-400 to-emerald-200 text-clip text-transparent bg-clip-text font-bold">{`Join our pages completely free, below.`}</div>
+      <div className="mt-10 text-center z-10 gap-y-4 flex flex-col items-center sm:gap-0">
+        <div className="text-2xl sm:text-3xl bg-gradient-to-bl from-cyan-200 via-indigo-400 to-emerald-200 text-clip text-transparent bg-clip-text font-bold ">{`Leading sports statistician & predictor. It’s never luck.`}</div>
+        <div className="text-sm sm:text-2xl bg-gradient-to-bl from-cyan-200 via-indigo-400 to-emerald-200 text-clip text-transparent bg-clip-text font-bold">{`Join our pages completely free, below.`}</div>
       </div>
       {/* buttons */}
       <div className="flex flex-row items-center w-full mt-10 justify-center gap-x-4 sm:gap-x-20 select-none z-10">
